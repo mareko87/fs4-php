@@ -1,0 +1,129 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat&display=swap');
+/* variables */
+:root {
+    --headingsFont: 'Forum', serif;
+    --bodyFont: 'Montserrat', sans-serif;
+    --text: #726E6E;
+    --gray: #5F5C5C;
+    --bg: #F2F2F2;
+    --white: white;
+    --black: black;
+}
+/* basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: 24px;
+    color: var(--text);
+    line-height: 1.5;
+}
+h1, h2, h3, h4 {
+    font-family: var(--headingsFont);
+    color: var(--black);
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 55px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.btn {
+    background: var(--black);
+    color: var(--white);
+    padding: 14px 94px;
+    display: inline-block;
+}
+/* nav */
+nav .logo {
+    text-transform: uppercase;
+    font-size: 30px; 
+}
+nav ul li a {
+    font-size: 20px; 
+    margin-left: 50px;
+}
+nav a {
+    color: var(--black);
+    font-family: var(--headingsFont);
+}
+/* footer */
+footer {
+    background: var(--bg);
+    padding: 35px 0 40px 0;
+    font-family: var(--headingsFont);
+}
+footer a {
+    margin: 0 30px;
+    color: var(--black);
+}
+footer p {
+    color: var(--gray);
+    margin: 60px;
+}
+footer h2 {
+    margin-bottom: 60px;
+}
+/* header */
+header {
+    padding: 100px 0 134px 0;
+}
+header img {
+    width: 100%;
+}
+header .text {
+    flex: 0 0 50%;
+}
+header .img {
+    flex: 0 0 50%;
+}
+/* cta */
+.cta {
+    background: var(--bg);
+    padding: 90px 0;
+}
+.cta h2 {
+    margin-bottom: 21px;
+}
+.cta p {
+    font-size: 22px; 
+}
