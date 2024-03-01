@@ -1,0 +1,31 @@
+:root {
+    --primary: #1fc1ff;
+    --accents: #ffdf2b;
+    --white: white;
+    --black: black;
+}
+.navigacija {
+    background: var(--primary);
+}
+.navigacija ul li a {
+    color: var(--black);
+    background: var(--accents);
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.navigacija ul li a:hover {
+    color: var(--accents);
+    background: var(--black);
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.navigacija .logo {
+    text-decoration: none;
+    color: var(--black);
+}
+footer {
+    background: var(--primary);
+}
+footer a {
+    color: var(--black);
+}
